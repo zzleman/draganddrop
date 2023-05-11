@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.dragging {
+  opacity: 0.6;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: green;
+  width: 300px;
+  height: 400px;
+}
+
+.item {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
